@@ -2,8 +2,8 @@
 
 set.seed(4321) # so that the visualisations are identical.
 
-# library(finnsurveytext)
-load_all()
+library(finnsurveytext)
+
 ## PREPARE ##
 prepd_df <- fst_prepare(dev_coop,
                         question = "q11_3",
